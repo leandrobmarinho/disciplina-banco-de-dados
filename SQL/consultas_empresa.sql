@@ -32,6 +32,9 @@ AND	d.sexo = 'M'
 SELECT cpf
 FROM	funcionario
 
+SELECT cpf
+FROM	funcionario, departamento
+
 
 
 
@@ -44,7 +47,7 @@ WHERE	dnr = 5
 
 
 -- ALL e DISTINCT
-SELECT DISTINCT salario
+SELECT ALL salario
 FROM funcionario
 
 SELECT DISTINCT salario
