@@ -34,5 +34,5 @@ create table aluno_disciplina(
 	ON UPDATE CASCADE,
 	FOREIGN KEY (cod_disc) REFERENCES disciplina(codigo)
 	ON DELETE CASCADE
-	ON UPDATE CASCADE,,
-);
+	ON UPDATE CASCADE
+)
